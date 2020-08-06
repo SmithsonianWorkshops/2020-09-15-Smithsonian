@@ -4,7 +4,6 @@
 
 # More detailed instructions are available at:
 # https://carpentries.github.io/workshop-template/customization/index.html
-
 # Which carpentry is this ("swc", "dc", "lc", or "cp")?
 # swc: Software Carpentry
 #  dc: Data Carpentry
@@ -16,13 +15,34 @@
 #  https://github.com/carpentries/training-template
 carpentry: "lc"
 
+# This option is currently only needed for
+# Data Carpentry and Software Carpentry workshops.
+# The value of the variable will be ignored for Library Carpentry
+# workshops.
+# Possible values are:
+# dc-ecology: for Data Carpentry Ecology workshops
+# dc-genomics: for Data Carpentry Genomics
+# dc-socsci: for Data Carpentry Social Sciences
+# dc-geospatial: for Data Carpentry Geospatial
+# swc-inflammation: for Software Carpentry based on the inflammation dataset
+# swc-gapminder: for Software Carpentry based on the Gapminder dataset
+curriculum: "none"
+
+# If there is both an R and python official version of a curriculum
+# (as listed on https://software-carpentry.org/lessons/ and
+# https://datacarpentry.org/lessons/), change the
+# value of the variable below ("flavor") to get the schedule and installation
+# instructions updated accordingly (valid values are 'r' or 'python').
+# Note: this is only for Data Carpentry and SWC at this time.
+flavor: "none"
+
 # Overall title for the Workshop.
 # This variable is used to (optionally) add a title in the "jumbotron"
 # (the grey box at the top of the page), and to the extra pages.
 # Most workshops don't use extra pages. More information about extra
 # pages are included in the README:
 # https://github.com/carpentries/workshop-template#creating-extra-pages
-title: "Workshop Title"
+title: "Smithsonian Library Carpentry Workshop"
 
 
 #------------------------------------------------------------
